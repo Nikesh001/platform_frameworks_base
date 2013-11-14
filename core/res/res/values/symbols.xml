@@ -3435,4 +3435,9 @@
   <!-- Alternative keyhandler -->
   <java-symbol type="string" name="config_alternativeDeviceKeyHandlerLib" />
   <java-symbol type="string" name="config_alternativeDeviceKeyHandlerClass" />
+
+  <!-- EdgeGesture service -->
+  <java-symbol type="dimen" name="edge_gesture_trigger_distance" />
+  <java-symbol type="dimen" name="edge_gesture_perpendicular_distance" />
+  <java-symbol type="dimen" name="edge_gesture_trigger_thickness" />
 </resources>

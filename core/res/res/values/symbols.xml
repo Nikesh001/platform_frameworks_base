@@ -3427,4 +3427,8 @@
   <java-symbol type="integer" name="db_wal_truncate_size" />
 
   <java-symbol type="string" name="config_defaultAssistantComponentName" />
+
+  <!-- Device keyhandlers -->
+  <java-symbol type="array" name="config_deviceKeyHandlerLibs" />
+  <java-symbol type="array" name="config_deviceKeyHandlerClasses" />
 </resources>

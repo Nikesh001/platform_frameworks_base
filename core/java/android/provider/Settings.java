@@ -5253,6 +5253,20 @@ public final class Settings {
                 "notification_guts_kill_app_button";
 
         /**
+         * Hold current font name and name of the originating package Uses "|" as a delimiter
+         *
+         * @hide
+         */
+        public static final String FONT_INFO = "font_info";
+
+         /**
+         * Hold list of installed font provider packages. Uses "|" as a delimiter
+         *
+         * @hide
+         */
+        public static final String FONT_PACKAGES = "font_packages";
+
+        /**
          * some devices have a extra hw button e.g. n3 on the back on the
          * fingerprint sensor. allow mapping button to key
          *

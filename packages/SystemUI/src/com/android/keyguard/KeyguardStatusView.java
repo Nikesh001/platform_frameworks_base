@@ -353,6 +353,9 @@ public class KeyguardStatusView extends GridLayout implements
         if (mLogoutView != null) {
             mLogoutView.setTypeface(tf);
         }
+        if (mKeyguardSlice != null) {
+            mKeyguardSlice.refresh();
+        }
     }
 
     public void dozeTimeTick() {

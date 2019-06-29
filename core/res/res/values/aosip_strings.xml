@@ -150,8 +150,9 @@
     <string name="fontservice_incompatible_font">The font package you\'ve installed is not compatible due to missing fonts.xml on their files. Please contact the package developer for support.</string>
 
     <!-- Gaming mode -->
-    <string name="notification_channel_gaming">Gaming Mode</string>
-    <string name="gaming_notif_ticker">Gaming mode enabled</string>
-    <string name="gaming_mode_enabled_toast">Gaming Mode activated</string>
-    <string name="gaming_mode_disabled_toast">Gaming Mode deactivated</string>
+    <string name="notification_channel_gaming">Gaming mode</string>
+    <string name="gaming_mode_notification_title">Gaming mode</string>
+    <string name="gaming_mode_notification_content">Tap to turn off Gaming mode</string>
+    <string name="gaming_mode_enabled_toast">Gaming mode turned on</string>
+    <string name="gaming_mode_disabled_toast">Gaming mode turned off</string>
 </resources>

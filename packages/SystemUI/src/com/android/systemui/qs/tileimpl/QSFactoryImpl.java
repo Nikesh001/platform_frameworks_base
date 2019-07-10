@@ -37,7 +37,6 @@ import com.android.systemui.qs.tiles.DndTile;
 import com.android.systemui.qs.tiles.FlashlightTile;
 import com.android.systemui.qs.tiles.FontTile;
 import com.android.systemui.qs.tiles.HeadsUpTile;
-import com.android.systemui.qs.tiles.GamingModeTile;
 import com.android.systemui.qs.tiles.HotspotTile;
 import com.android.systemui.qs.tiles.HWKeysTile;
 import com.android.systemui.qs.tiles.ImmersiveTile;
@@ -146,8 +145,6 @@ public class QSFactoryImpl implements QSFactory {
                 return new VolumeTile(mHost);
             case "aod":
                 return new AODTile(mHost);
-            case "gaming":
-                return new GamingModeTile(mHost);
             case "sync":
                 return new SyncTile(mHost);
             case "font":
